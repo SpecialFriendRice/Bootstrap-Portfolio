@@ -1,0 +1,17 @@
+:root {
+
+}
+
+
+img {
+    display: inline;
+    height: 180px;
+    margin-top: 20px;
+   
+  }
+
+  /* is Bootstrap CSS going to deal with all viewport/breakpoint issues rather than media queries like
+  @media only screen and (min-width: 992px)
+  ?
+  Challenge guidelines say "Your Bootstrap solution should minimize use of media queries"
+  */
