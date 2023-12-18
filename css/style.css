@@ -10,6 +10,21 @@ img {
    
   }
 
+a:hover {
+    font-size: 120%;
+    /*  was 1.2rem; */
+}
+
+.hoverbtn {
+    /*can this be empty?*/
+}
+
+.hoverbtn:hover {
+    box-shadow: 0px 5px 5px gray;
+    transition: box-shadow 0.4s;
+}
+
+
   /* is Bootstrap CSS going to deal with all viewport/breakpoint issues rather than media queries like
   @media only screen and (min-width: 992px)
   ?
