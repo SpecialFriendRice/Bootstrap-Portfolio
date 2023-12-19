@@ -2,17 +2,36 @@
 
 }
 
+/* use basic font list her or Bootstrap font family reference in HTML header?
+body {
+    font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+  }*/
+
+body {
+    
+}
+
+div {
+  margin-left: 20px;
+}
+
+h2 {
+    margin-left: 20px;
+}
 
 img {
     display: inline;
     height: 180px;
     margin-top: 20px;
-   
-  }
+}
+
+#flexcontactbox {
+    display:flex;
+    justify-content: space-around;
+}
 
 a:hover {
     font-size: 120%;
-    /*  was 1.2rem; */
 }
 
 .hoverbtn {
@@ -24,9 +43,9 @@ a:hover {
     transition: box-shadow 0.4s;
 }
 
-
-  /* is Bootstrap CSS going to deal with all viewport/breakpoint issues rather than media queries like
-  @media only screen and (min-width: 992px)
-  ?
-  Challenge guidelines say "Your Bootstrap solution should minimize use of media queries"
-  */
+@media only screen and (max-width: 768px) {
+    #flexcontactbox {
+        flex-direction: column;
+        align-items: flex-start;
+        }
+}
